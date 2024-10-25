@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Layout</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Include Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <section class="container">
+        <div class="featured-product">
+            <img src="image/Dentalpf.png" alt="Facial Kit">
+            <p>Ahli Gigi Sejak 2020 | Jl. Tawang Sakti No.5a, Tawangrejo, Kec. Kartoharjo, Kota Madiun, Jawa Timur 63113</p>
+        </div>
+
+        <div class="menu">
+            <a href="https://maps.app.goo.gl/tYnKSiuuWnn7xS6E9" class="menu-item">
+                <i class="fas fa-location"></i>
+                <span>Location</span>
+            </a>
+            <a href="https://api.whatsapp.com/send/?phone=6281235522892&text&type=phone_number&app_absent=0" class="menu-item">
+                <i class="fas fa-calendar-check"></i>
+                <span>Reservation</span>
+            </a>
+            <a href="https://api.whatsapp.com/send/?phone=6281235522892&text&type=phone_number&app_absent=0" class="menu-item">
+                <i class="fas fa-user-md"></i>
+                <span>Tanya Dokter Online</span>
+            </a>
+        </div>
+    </section>
+
+     <!-- Image Slider -->
+     <section class="image-slider">
+        <div class="slides">
+            <img src="image/img-1.jpg" alt="Slide 1" class="slide">
+            <img src="image/img-4.jpg" alt="Slide 2" class="slide">
+            <img src="image/img-3.jpg" alt="Slide 3" class="slide">
+            <img src="image/img-2.jpg" alt="Slide 3" class="slide">
+        </div>
+        <div class="slider-nav">
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
